@@ -27,5 +27,5 @@ def gross_for_director(director_data)
     sum_of_wwg = sum_of_wwg + director_data[:movies][cntr2][:worldwide_gross]
     cntr2 += 1 
   end 
-  pp sum_of_wwg
+  sum_of_wwg
 end
