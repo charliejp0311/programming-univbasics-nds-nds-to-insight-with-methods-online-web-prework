@@ -11,10 +11,9 @@ def directors_totals(nds)
   while c1 < nds.length do
     dirctr = nds[c1][:name] 
     mny = gross_for_director(nds[c1])
-    result.merge(dirctr, mny)
     c1 += 1 
   end 
-  
+  result.merge(dirctr, mny)
   result
 end
 
