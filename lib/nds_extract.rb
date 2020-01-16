@@ -9,8 +9,8 @@ def directors_totals(nds)
   result = {}
   c1 = 0 
   while c1 < nds.length do
-    pp nds[c1][:name] 
-    #gross_for_director(nds[c1])
+    dirctr = nds[c1][:name] 
+    mny = gross_for_director(nds[c1])
     c1 += 1 
   end 
   
