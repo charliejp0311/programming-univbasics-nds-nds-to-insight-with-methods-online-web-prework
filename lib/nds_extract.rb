@@ -13,7 +13,7 @@ def directors_totals(nds)
     mny = gross_for_director(nds[c1])
     c1 += 1 
   end 
-  result.merge(dirctr, mny)
+  result.store(dirctr, mny)
   result
 end
 
